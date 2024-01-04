@@ -1,0 +1,88 @@
+/* Header of the websit*/
+
+.fucking-top {
+    background-color: #1f1f1f;
+    height: 450px
+}
+
+.top-header {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 15px;
+}
+
+/* Header links */
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Header links adjustment CSS'ing */
+
+.top-header ul li {
+    list-style-type: none;
+}
+
+.top-header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header Button adjustments */
+
+.info div button {
+    background-color: #3882f6;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+/* Images of fucking top header */
+
+.header-logo {
+    width: 70px;
+    height: 50px;
+}
+
+
+.hitler-posing-greatly {
+    width: 400px;
+    height: 220px;
+    border: 5px solid;
+    border-color: rgb(109, 109, 109);
+    box-shadow: 25px 10px 40px #575555;
+}
+
+/* main header */
+
+ .main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 50px;
+ }
+
+ .info {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .info-header {
+    display: flex;
+    max-width: 500px;
+    font-size: 48px;
+    font-weight: bold;
+     color: #f9faf8;
+}
+
+.info div p {
+    max-width: 550px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+
+
