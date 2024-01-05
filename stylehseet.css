@@ -2,7 +2,7 @@
 
 .fucking-top {
     background-color: #1f1f1f;
-    height: 450px
+    height: 450px;
 }
 
 .top-header {
@@ -37,6 +37,8 @@
     width: 90px;
     height: 30px;
     border-radius: 10px;
+    color: white;
+    font-size: 17px;
 
 }
 
@@ -84,5 +86,149 @@
     color: #f9faf8;
 }
 
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main-header header {
+font-size: 40px;
+font-weight: bold;
+color: rgb(27, 42, 87);
+margin-bottom: 50px;
+
+}
+
+/* Main's images adjustment*/
+
+.attribute-image {
+    width: 200px;
+    height: 150px;
+    border: 3px solid #5d6b83;
+    border-radius: 10px;
+    margin: 0px;
+    box-shadow: 10px 9px 50px rgb(51, 46, 112);
+    
+}
+
+.attribute-image-div {
+    max-width: 200px;
+}
+
+.main-main div p {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+    margin: 15px;
+}
+
+
+/* second main */
+
+.second-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Qoute */
+
+.qoute {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    max-width: 740px;
+    text-align: center;
+
+}
+
+.qoute-text p {
+    font-size: 36px;
+    font-weight: italic;
+
+}
+
+.qoute-by {
+    align-self: flex-end;
+    color: rgb(31, 21, 58);
+    font-weight: bold;
+}
+
+.qoute-by p {
+    font-size: 20px;
+}
+
+/* its time section */
+
+.its-time {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-bottom: 100px;
+
+}
+
+.time-info {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+
+}
+
+
+.time-info header {
+  color: white;
+  font-size: 20px;
+}
+
+.time-info p {
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.time-sign-up {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 33px
+}
+
+.time-sign-up-button {
+    margin: 0px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+/* footer */ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+footer p {
+    font-size: 25px;
+    padding: 10px;
+}
 
 
